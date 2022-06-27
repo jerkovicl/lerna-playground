@@ -6,7 +6,8 @@
     "build": "remix build",
     "dev": "remix dev",
     "start": "remix-serve build",
-    "test": "echo passed!"
+    "test": "echo passed!",
+    "publish": "lerna version"
   },
   "dependencies": {
     "@remix-run/node": "^1.5.1",
