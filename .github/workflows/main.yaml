@@ -9,5 +9,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: build
-        run: npx nx run remixapp:build
+      - uses: mansagroup/nrwl-nx-action@v2
+        with:
+          targets: build
+          nxCloud: 'true'
