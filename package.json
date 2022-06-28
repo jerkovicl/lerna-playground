@@ -4,5 +4,8 @@
   "devDependencies": {
     "lerna": "^5.1.6",
     "nx": "^14.3.6"
+  },
+  "dependencies": {
+    "@nrwl/nx-cloud": "^14.1.2"
   }
 }
