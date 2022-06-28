@@ -1,0 +1,13 @@
+name: ci
+on:
+  workflow_dispatch
+jobs:
+  build_monorepo:
+    runs-on: ubuntu-22.04
+    steps:
+      - users: actions/checkout@v3
+      - users: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: build
+        run: npx nx run remixapp:build
