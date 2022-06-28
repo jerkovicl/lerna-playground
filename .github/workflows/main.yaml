@@ -1,6 +1,11 @@
 name: ci
 on:
-  workflow_dispatch
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+
 jobs:
   main:
     runs-on: ubuntu-latest
