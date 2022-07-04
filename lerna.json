@@ -5,8 +5,13 @@
   "version": "0.3.0",
   "command": {
     "version": {
-      "allowBranch": "main",
-      "conventionalCommits": true
+      "allowBranch": [
+        "main",
+        "feature/*"
+      ],
+      "conventionalCommits": true,
+      "changelogPreset": "angular",
+      "message": "chore(release): publish %s"
     },
     "publish": {
       "registry": "https://npm.pkg.github.com/jerkovicl"
