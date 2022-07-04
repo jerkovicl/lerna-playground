@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.6](https://github.com/jerkovicl/lerna-playground/compare/v0.3.5...v0.3.6) (2022-07-04)
+
+
+### Bug Fixes
+
+* **footer:** more info text ([9daa293](https://github.com/jerkovicl/lerna-playground/commit/9daa293960f131b7026a34dafee7fc655714f900))
+
+
+
+
+
 ## [0.3.5](https://github.com/jerkovicl/lerna-playground/compare/v0.3.2...v0.3.5) (2022-07-04)
 
 
