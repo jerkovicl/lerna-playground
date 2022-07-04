@@ -1,11 +1,27 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "commit": "cz"
+  },
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.1",
     "lerna": "^5.1.6",
     "nx": "^14.3.6"
   },
   "dependencies": {
     "@nrwl/nx-cloud": "^14.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+    }
   }
 }
