@@ -6,11 +6,13 @@
       "allowBranch": ["main", "feature/*"],
       "conventionalCommits": true,
       "changelogPreset": "angular",
-      "push": false
+      "push": true,
+      "yes": true
     },
     "publish": {
       "registry": "https://npm.pkg.github.com/jerkovicl",
-      "message": "chore(release): release"
+      "message": "chore(release): release %s",
+      "yes": true
     }
   },
   "useNx": true
