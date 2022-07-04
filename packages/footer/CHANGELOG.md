@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/jerkovicl/lerna-playground/compare/v0.2.0...v0.3.0) (2022-07-04)
+
+
+### Features
+
+* **footer:** adds more info text to footer component ([7686868](https://github.com/jerkovicl/lerna-playground/commit/76868689bca7a9b388a85821af23524a7ec3fd91))
+
+
+
+
+
 # [0.2.0](https://github.com/jerkovicl/lerna-playground/compare/v0.1.4...v0.2.0) (2022-07-04)
 
 

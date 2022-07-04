@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/jerkovicl/lerna-playground/compare/v0.2.0...v0.3.0) (2022-07-04)
+
+
+### Features
+
+* **footer:** adds more info text to footer component ([7686868](https://github.com/jerkovicl/lerna-playground/commit/76868689bca7a9b388a85821af23524a7ec3fd91))
+* **remixapp:** adds publish registry to lerna config ([b5cce56](https://github.com/jerkovicl/lerna-playground/commit/b5cce565b078d3dbec18d2430f0993fe187edbf9))
+* **root:** adds publish registry to lerna config ([10bf684](https://github.com/jerkovicl/lerna-playground/commit/10bf6847fd0c274b3e49457a1dbc916bb9d6b83d))
+
+
+
+
+
 # [0.2.0](https://github.com/jerkovicl/lerna-playground/compare/v0.1.4...v0.2.0) (2022-07-04)
 
 
