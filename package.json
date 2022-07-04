@@ -3,7 +3,10 @@
   "private": true,
   "scripts": {
     "commit": "cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "prettier --write \"./**/*.{ts,js,json,md}\"",
+    "format-check": "prettier --check \"./**/*.{ts,js,json,md}\"",
+    "lint-staged": "lint-staged"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
@@ -12,7 +15,9 @@
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.1",
     "lerna": "^5.1.6",
-    "nx": "^14.3.6"
+    "lint-staged": "^13.0.3",
+    "nx": "^14.3.6",
+    "prettier": "^2.7.1"
   },
   "dependencies": {
     "@nrwl/nx-cloud": "^14.1.2"
@@ -22,9 +27,7 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+  "lint-staged": {
+    "*.{ts,js,json,md}": "npm run format"
   }
 }
