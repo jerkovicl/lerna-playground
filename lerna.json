@@ -3,6 +3,11 @@
     "packages/*"
   ],
   "version": "0.2.0",
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com/jerkovicl"
+    }
+  },
   "useNx": true,
   "conventionalCommits": true
 }
