@@ -1,6 +1,6 @@
-62 error Error: Command failed with exit code 1: git commit -m chore(release): publish v0.3.3
-62 error .git/hooks/prepare-commit-msg: line 44: /dev/tty: No such device or address
-62 error     at makeError (C:\Git\playgrounds\leran-playground\node_modules\execa\lib\error.js:60:11)
-62 error     at handlePromise (C:\Git\playgrounds\leran-playground\node_modules\execa\index.js:118:26)
-62 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-62 error     at async Promise.all (index 0)
+63 error Error: Command failed with exit code 1: git commit -m v0.3.4
+63 error .git/hooks/prepare-commit-msg: line 44: /dev/tty: No such device or address
+63 error     at makeError (C:\Git\playgrounds\leran-playground\node_modules\execa\lib\error.js:60:11)
+63 error     at handlePromise (C:\Git\playgrounds\leran-playground\node_modules\execa\index.js:118:26)
+63 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+63 error     at async Promise.all (index 0)

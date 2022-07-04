@@ -10,10 +10,12 @@
         "feature/*"
       ],
       "conventionalCommits": true,
-      "changelogPreset": "angular"
+      "changelogPreset": "angular",
+      "push": false
     },
     "publish": {
-      "registry": "https://npm.pkg.github.com/jerkovicl"
+      "registry": "https://npm.pkg.github.com/jerkovicl",
+      "message": "chore(release): release"
     }
   },
   "useNx": true
