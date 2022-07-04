@@ -4,10 +4,13 @@
   ],
   "version": "0.2.0",
   "command": {
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true
+    },
     "publish": {
       "registry": "https://npm.pkg.github.com/jerkovicl"
     }
   },
-  "useNx": true,
-  "conventionalCommits": true
+  "useNx": true
 }
