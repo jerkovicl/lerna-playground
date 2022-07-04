@@ -10,8 +10,7 @@
         "feature/*"
       ],
       "conventionalCommits": true,
-      "changelogPreset": "angular",
-      "message": "chore(release): publish %s"
+      "changelogPreset": "angular"
     },
     "publish": {
       "registry": "https://npm.pkg.github.com/jerkovicl"
