@@ -12,6 +12,7 @@
     "publish": {
       "registry": "https://npm.pkg.github.com/jerkovicl",
       "message": "chore(release): release %s",
+      "push": true,
       "yes": true
     }
   },
