@@ -1,6 +1,6 @@
 {
   "name": "footer",
-  "version": "0.3.13",
+  "version": "0.3.14",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && rollup --config",

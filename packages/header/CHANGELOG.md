@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.14](https://github.com/jerkovicl/lerna-playground/compare/v0.3.13...v0.3.14) (2022-07-05)
+
+**Note:** Version bump only for package header
+
 ## [0.3.13](https://github.com/jerkovicl/lerna-playground/compare/v0.3.12...v0.3.13) (2022-07-05)
 
 **Note:** Version bump only for package header
