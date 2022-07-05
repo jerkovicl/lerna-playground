@@ -1,6 +1,6 @@
 {
   "name": "header",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && rollup --config",
