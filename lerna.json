@@ -6,7 +6,6 @@
       "allowBranch": ["main", "feature/*"],
       "conventionalCommits": true,
       "changelogPreset": "angular",
-      "push": true,
       "yes": true
     },
     "publish": {
