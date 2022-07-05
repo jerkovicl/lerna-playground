@@ -6,7 +6,10 @@
     "prepare": "husky install",
     "format": "prettier --write \"./**/*.{ts,js,json,md}\"",
     "format-check": "prettier --check \"./**/*.{ts,js,json,md}\"",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "publish-libs": "lerna publish --yes",
+    "version-libs": "lerna version --force-publish --no-git-tag-version --no-push --no-changelog --yes",
+    "version-exact-libs": "lerna version --exact --force-publish --no-git-tag-version --no-push --no-changelog --yes"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
